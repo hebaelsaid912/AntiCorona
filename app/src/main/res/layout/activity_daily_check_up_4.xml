@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ba"
+        android:scaleType="centerCrop"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Covid-19"
+        android:textColor="#2196F3"
+        android:textSize="50dp"
+        android:layout_margin="45dp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_margin="35dp"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:background="#AAFFFFFF"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 4"
+            android:textColor="#2196F3"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Since you arrived here, we regret to inform you that you have Corona and you must contact the competent authorities and you can return to the home page and click on the advice button"/>
+
+    </LinearLayout>
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="30dp"
+            android:background="@drawable/main_buttons"
+            android:text="Back to Home Page"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:onClick="backHome"
+            />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ba"
+        android:scaleType="centerCrop"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Covid-19"
+        android:textColor="#2196F3"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="35dp"
+        android:orientation="vertical"
+        android:background="#AA89C0EC"
+        >
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Daily check up"
+            android:background="@drawable/main_buttons"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:onClick="DailyCheckUp"
+            />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="For awareness"
+            android:background="@drawable/main_buttons"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:onClick="Advices"
+            />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Daily Sport"
+            android:background="@drawable/main_buttons"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:onClick="sports"
+            />
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Healthy Food"
+            android:background="@drawable/main_buttons"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:onClick="food"
+            />
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Corona scale in Egypt"
+            android:background="@drawable/main_buttons"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:onClick="Scale"
+            />
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
